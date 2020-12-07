@@ -15,3 +15,11 @@ export function randomArray(len, n) {
 function randomInt(n) {
     return Math.floor(Math.random() * (n + 1))
 }
+
+export function swap(arr, element1, element2) {
+    
+    let x = arr[element1]
+    arr[element1] = arr[element2]
+    arr[element2] = x
+
+}
